@@ -1,0 +1,121 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(to right, #007BFF, #b3005a);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: aqua;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background: white;
+    color: #007BFF;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .btn:hover {
+    background: #e9ecef;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul li a:hover {
+    background: #007BFF;
+    border-radius: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 2rem 1rem;
+}
+
+.bg-light {
+    background: #f9f9f9;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.skill {
+    background: #007BFF;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.skill h3 {
+    margin: 0 0 0.5rem;
+}
+
+/* Projects */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    background: #e9ecef;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 0 0 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
